@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-pac-ceea
     spec:
       containers:
-      - image: quay.io/psturc/test-images
+      - image: quay.io/psturc/test-images@sha256:927a6b0be6b17f55db9e533360b62181c971cf146142390cd563c031396ca2e8
         imagePullPolicy: Always
         name: container-image
         resources:
